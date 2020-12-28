@@ -151,6 +151,11 @@ body {
   display: flex;
   flex-direction: column;
 }
+@media screen and (min-width: 1900px) {
+  .header__info__nav {
+    right: 15vw;
+  }
+}
 @media screen and (max-width: 1500px) {
   .header__info__nav {
     right: 5vw;
